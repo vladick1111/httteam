@@ -1,0 +1,61 @@
+body {
+    background-size: cover;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+}
+
+div {
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 100%;
+    padding: 20px;
+}
+
+input::placeholder {
+    font-size: 20px;;
+    color: white;
+    opacity: 0.8;
+
+  }
+
+button {
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 17px;
+
+    font-size: 20px;
+    font-weight: bold;
+    width: 40%;
+
+    border: 3px solid #00C2FF;
+    border-radius: 40px;
+}
+
+button:hover {
+    box-shadow: 0 0 40px #00C2FF90;
+}
